@@ -14,8 +14,9 @@ function App() {
       setActivities(response.data);
     })
   },[])
+ 
 
-
+  
   return (
     <div className="App">
       <Header as='h2' icon='users' content="Bolts" />
